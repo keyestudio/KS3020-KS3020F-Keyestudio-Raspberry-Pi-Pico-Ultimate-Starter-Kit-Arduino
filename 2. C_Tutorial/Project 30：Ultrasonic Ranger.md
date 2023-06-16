@@ -1,83 +1,44 @@
 # Project 30：Ultrasonic Ranger
 
-**1. Introduction**
+### **1. Introduction**
 
-The HC-SR04 ultrasonic sensor is a very affordable distance sensor,
-mainly used for obstacle avoidance in various robotic projects. It is
-also used for water level sensing and even as a parking sensor. We treat
-the ultrasonic sensors as bat's eyes. In the dark, bats can still
-identify objects in front of them and directions through ultrasound.
+The HC-SR04 ultrasonic sensor is a very affordable distance sensor, mainly used for obstacle avoidance in various robotic projects. It is also used for water level sensing and even as a parking sensor. We treat the ultrasonic sensors as bat's eyes. 
 
-**2. Components Required**
+In the dark, bats can still identify objects in front of them and directions through ultrasound.
 
-<table>
-<tbody>
-<tr class="odd">
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3020-KS3020F-Keyestudio-Raspberry-Pi-Pico-Ultimate-Starter-Kit-Arduino/master/media/ea74681ffd2116a2434692d34c25e829.jpeg" style="width:1.92569in;height:0.76667in" /></td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3020-KS3020F-Keyestudio-Raspberry-Pi-Pico-Ultimate-Starter-Kit-Arduino/master/media/bbed91c0b45fcafc7e7163bfeabf68f9.png" style="width:1.66944in;height:1.28472in" /></td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3020-KS3020F-Keyestudio-Raspberry-Pi-Pico-Ultimate-Starter-Kit-Arduino/master/media/85df6831220dec7d43a68bfc9b7382cb.png" style="width:1.45764in;height:0.96319in" /></td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3020-KS3020F-Keyestudio-Raspberry-Pi-Pico-Ultimate-Starter-Kit-Arduino/master/media/7eb361d680dfa351f07f8527aeb37abd.png" style="width:0.275in;height:1.17361in" /></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Raspberry Pi Pico*1</td>
-<td>Raspberry Pi Pico Expansion Board*1</td>
-<td>Ultrasonic Sensor*1</td>
-<td>Red LED*4</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3020-KS3020F-Keyestudio-Raspberry-Pi-Pico-Ultimate-Starter-Kit-Arduino/master/media/1fbdfe0569327d9a42600a54336bf7b5.png" style="width:1.38819in;height:1.15833in" /></td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3020-KS3020F-Keyestudio-Raspberry-Pi-Pico-Ultimate-Starter-Kit-Arduino/master/media/098a2730d0b0a2a4b2079e0fc87fd38b.png" style="width:1.22639in;height:0.49236in" /></td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3020-KS3020F-Keyestudio-Raspberry-Pi-Pico-Ultimate-Starter-Kit-Arduino/master/media/e9a8d050105397bb183512fb4ffdd2f6.png" style="width:0.90694in;height:0.90139in" /></td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3020-KS3020F-Keyestudio-Raspberry-Pi-Pico-Ultimate-Starter-Kit-Arduino/master/media/e380dd26e4825be9a768973802a55fe6.png" style="width:0.50347in;height:1.23333in" /></td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3020-KS3020F-Keyestudio-Raspberry-Pi-Pico-Ultimate-Starter-Kit-Arduino/master/media/7dcbd02995be3c142b2f97df7f7c03ce.png" style="width:0.99028in;height:0.52986in" /></td>
-</tr>
-<tr class="even">
-<td>M-F Dupont Wires</td>
-<td>220ΩResistor*4</td>
-<td>Jumper Wires</td>
-<td>Breadboard*1</td>
-<td>USB Cable*1</td>
-</tr>
-</tbody>
-</table>
 
-**3. Component Knowledge**
 
-**HC-SR04 ultrasonic sensor:** Like bats, sonar is used to determine the
-distance to an object. It provides accurate non-contact range detection,
-high-precision and stable readings. Its operation is not affected by
-sunlight or black materials, just like a precision camera (acoustically
-softer materials like cloth are difficult to detect). It has an
-ultrasonic transmitter and receiver.
+### **2. Components Required**
 
-![](/media/e6f6037071e434febf7090b56ac35802.png)
+| ![image-20230423154102387](media/image-20230423154102387.png) | ![image-20230423154108877](media/image-20230423154108877.png) | ![image-20230423154113631](media/image-20230423154113631.png) |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|                     Raspberry Pi Pico*1                      |             Raspberry Pi Pico Expansion Board*1              |                     Ultrasonic Sensor*1                      |
+| ![image-20230423154119742](media/image-20230423154119742.png) | ![image-20230423154123425](media/image-20230423154123425.png) | ![image-20230423154126285](media/image-20230423154126285.png) |
+|                          Red LED*4                           |                       M-F Dupont Wires                       |                        220ΩResistor*4                        |
+| ![image-20230423154131021](media/image-20230423154131021.png) | ![image-20230423154134430](media/image-20230423154134430.png) | ![image-20230423154137325](media/image-20230423154137325.png) |
+|                         Jumper Wires                         |                         Breadboard*1                         |                         USB Cable*1                          |
 
-In front of the ultrasonic sensor are two metal cylinders, these are the
-converters. The converters convert the mechanical energy into an
-electrical signal. In the ultrasonic sensor, there are transmitting
-converters and receiving converters. The transmitting converter converts
-the electric signal into an ultrasonic pulse, and the receiving
-converter converts the reflected ultrasonic pulse back to an electric
-signal. If you look at the back of the ultrasonic sensor, you will see
-an IC behind the transmitting converter, which controls the transmitting
-converter. There is also an IC behind the receiving converter, which is
-a quad operational amplifier that amplifies the signal generated by the
-receiving converter into a signal large enough to be transmitted to the
-Arduino.
+
+
+### **3. Component Knowledge**
+
+**HC-SR04 ultrasonic sensor:** 
+
+Like bats, sonar is used to determine the distance to an object. It provides accurate non-contact range detection, high-precision and stable readings. Its operation is not affected by sunlight or black materials, just like a precision camera (acoustically softer materials like cloth are difficult to detect). It has an ultrasonic transmitter and receiver.
+
+![image-20230423154232072](media/image-20230423154232072.png)
+
+In front of the ultrasonic sensor are two metal cylinders, these are the converters. The converters convert the mechanical energy into an electrical signal. In the ultrasonic sensor, there are transmitting converters and receiving converters. 
+
+The transmitting converter converts the electric signal into an ultrasonic pulse, and the receiving converter converts the reflected ultrasonic pulse back to an electric signal. 
+
+If you look at the back of the ultrasonic sensor, you will see an IC behind the transmitting converter, which controls the transmitting converter. There is also an IC behind the receiving converter, which is a quad operational amplifier that amplifies the signal generated by the receiving converter into a signal large enough to be transmitted to the Arduino.
 
 **Sequence diagrams:**
 
-The figure shows the sequence diagram of the HC-SR04. To start the
-measurement, the Trig of SR04 must receive at least 10us high pulse
-(5V), which will activate the sensor to emit 8 cycles of 40kHz
-ultrasonic pulses, and wait for the reflected ultrasonic pulses. When
-the sensor detects ultrasound from the receiver, it sets the Echo pin to
-high (5V) and delays it by one cycle (width), proportional to the
-distance. To get the distance, measure the width of the Echo pin.
+The figure shows the sequence diagram of the HC-SR04. To start the measurement, the Trig of SR04 must receive at least 10us high pulse (5V), which will activate the sensor to emit 8 cycles of 40kHz ultrasonic pulses, and wait for the reflected ultrasonic pulses. When the sensor detects ultrasound from the receiver, it sets the Echo pin to high (5V) and delays it by one cycle (width), proportional to the distance. To get the distance, measure the width of the Echo pin.
 
-![](/media/4114885ac4b6214953e3224d8c1d52c4.png)
+![image-20230423154316183](media/image-20230423154316183.png)
 
 Time = Echo pulse width, its unit is “us” (microseconds)
 
@@ -85,150 +46,183 @@ Distance in centimeters = time / 58
 
 Distance in inches = time / 148
 
-4.  **Read the Distance Value**
-    
-    We will start with a simple ultrasonic distance measurement and
-    output the measured distance on the serial monitor.
-    
-    ![](/media/db430baa07e2e4d9ac9efca1950b953a.jpeg)
-    
-    The HC-SR04 ultrasonic sensor has four pins, they are Vcc, Trig,
-    Echo and GND. The Vcc pin provides the power source for generating
-    ultrasonic pulses and is connected to Vcc (+5V). The GND pin is
-    grounded. The Trig pin is where the Arduino sends a signal to start
-    the ultrasonic pulse. The Echo pin is where the ultrasonic sensor
-    sends information about the duration of the ultrasonic pulse to the
-    Plus control board. Wiring as shown below.
-    
-    ![](/media/2e5a5d288a21bc75933876f223a278e4.png)
+### **4. Read the Distance Value**
 
-![](/media/92213eb45109991180d9eeadbba009b1.png)
+We will start with a simple ultrasonic distance measurement and output the measured distance on the serial monitor.
+
+![image-20230423154343519](media/image-20230423154343519.png)
+
+The HC-SR04 ultrasonic sensor has four pins, they are Vcc, Trig, Echo and GND. 
+
+The Vcc pin provides the power source for generating ultrasonic pulses and is connected to Vcc (+5V). The GND pin is grounded. The Trig pin is where the Arduino sends a signal to start the ultrasonic pulse. The Echo pin is where the ultrasonic sensor sends information about the duration of the ultrasonic pulse to the Plus control board. 
+
+Wiring as shown below.
+
+![image-20230423154431414](media/image-20230423154431414.png)
+
+<img src="media/image-20230423154438206.png" alt="image-20230423154438206" style="zoom: 80%;" />
 
 You can open the code we provide:
 
-Go to the folder KS3020 Keyestudio Raspberry Pi Pico Learning Kit
-Ultimate Edition\\2. Windows System\\2. C\_Tutorial\\2.
-Projects\\Project 30：Ultrasonic
-Ranger\\Project\_30.1\_Ultrasonic\_Ranging
+Go to the folder KS3020 Keyestudio Raspberry Pi Pico Learning Kit Ultimate Edition\2. Windows  System\2. C_Tutorial\2. Projects\Project 30：Ultrasonic Ranger\Project_30.1_Ultrasonic_Ranging
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p>//**********************************************************************************</p>
-<p>/*</p>
-<p>* Filename : Ultrasonic Ranging</p>
-<p>* Description : Use the ultrasonic module to measure the distance.</p>
-<p>* Auther : http//www.keyestudio.com</p>
-<p>*/</p>
-<p>const int TrigPin = 27; // define TrigPin</p>
-<p>const int EchoPin = 26; // define EchoPin.</p>
-<p>int duration = 0; // Define the initial value of the duration to be 0</p>
-<p>int distance = 0;//Define the initial value of the distance to be 0</p>
-<p>void setup()</p>
-<p></p>
-<p>void loop()</p>
-<p></p>
-<p>//**********************************************************************************</p></td>
-</tr>
-</tbody>
-</table>
+```c
+//**********************************************************************************
+/*  
+ * Filename    : Ultrasonic Ranging
+ * Description : Use the ultrasonic module to measure the distance.
+ * Auther      : http//www.keyestudio.com
+*/
+const int TrigPin = 27; // define TrigPin
+const int EchoPin = 26; // define EchoPin.
+int duration = 0; // Define the initial value of the duration to be 0
+int distance = 0;//Define the initial value of the distance to be 0
+void setup() 
+{
+  pinMode(TrigPin , OUTPUT); // set trigPin to output mode
+  pinMode(EchoPin , INPUT); // set echoPin to input mode
+  Serial.begin(115200);  // Open serial monitor at 115200 baud to see ping results.
+}
+void loop()
+{
+ // make trigPin output high level lasting for 10μs to triger HC_SR04 
+  digitalWrite(TrigPin , HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TrigPin , LOW);
+  // Wait HC-SR04 returning to the high level and measure out this waitting time
+  duration = pulseIn(EchoPin , HIGH);
+  // calculate the distance according to the time
+  distance = (duration/2) / 28.5 ;
+  Serial.print("Distance: ");
+  Serial.print(distance); //Serial port print distance value
+  Serial.println("cm");
+  delay(100); // Wait 100ms between pings (about 20 pings/sec).
+}
+//**********************************************************************************
+```
 
-Before uploading Test Code to Raspberry Pi Pico, please check the
-configuration of Arduino IDE.
+
+Before uploading Test Code to Raspberry Pi Pico, please check the configuration of Arduino IDE.
 
 Click "Tools" to confirm that the board type and ports.
 
-![](/media/a392ef1fbad7ac9f93cd5c5e8e87c19d.png)
+![image-20230423154527937](media/image-20230423154527937.png)
 
-Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code to the Raspberry
-Pi Pico board
+Click ![image-20230423154535496](media/image-20230423154535496.png) to upload the test code to the Raspberry Pi Pico board
 
-![](/media/21745d8a0240ff1bd1153b539f8fcaa8.png)
+![image-20230423154543136](media/image-20230423154543136.png)
 
-![](/media/e65a3842945d99a0be43cf42770e23d1.png)
+![image-20230423154549805](media/image-20230423154549805.png)
 
-Upload the code to the pico board, power up with a USB cable and open
-the serial monitor and set baud rate to 115200.
+Upload the code to the pico board, power up with a USB cable and open the serial monitor and set baud rate to 115200. 
 
-The monitor will show distance vales between the sensor and the
-obstacle.![](/media/bfa93e9a341e133c4481c844e1fba133.png)
+The monitor will show distance vales between the sensor and the obstacle.
 
-4.  **Circuit Diagram and Wiring Diagram**
-    
-    Next, we will make a simple ultrasonic ranger using a Raspberry Pi
-    Pico to control an ultrasonic sensor and 4 LED lights. Connect the
-    wires as shown below.
-    
-    ![](/media/fde13d356d164fa9bf4e2f01253a3523.png)
+![image-20230423154625954](media/image-20230423154625954.png)
 
-![](/media/1d9e98a0287beea858503dacd289a809.png)
+
+
+### **5. Circuit Diagram and Wiring Diagram**
+
+Next, we will make a simple ultrasonic ranger using a Raspberry Pi Pico to control an ultrasonic sensor and 4 LED lights. Connect the wires as shown below.
+![image-20230423154642163](media/image-20230423154642163.png)	
+
+<img src="media/image-20230423154652524.png" alt="image-20230423154652524" style="zoom: 67%;" />
 
 You can open the code we provide:
 
-Go to the folder KS3020 Keyestudio Raspberry Pi Pico Learning Kit
-Ultimate Edition\\2. Windows System\\2. C\_Tutorial\\2.
-Projects\\Project 30：Ultrasonic
-Ranger\\Project\_30.2\_Ultrasonic\_Ranger
+Go to the folder KS3020 Keyestudio Raspberry Pi Pico Learning Kit Ultimate Edition\2. Windows  System\2. C_Tutorial\2. Projects\Project 30：Ultrasonic Ranger\Project_30.2_Ultrasonic_Ranger
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p>//**********************************************************************************</p>
-<p>/*</p>
-<p>* Filename : Ultrasonic Ranger</p>
-<p>* Description : four leds are controlled by ultrasonic ranging.</p>
-<p>* Auther : http//www.keyestudio.com</p>
-<p>*/</p>
-<p>const int TrigPin = 27; // define TrigPin</p>
-<p>const int EchoPin = 26; // define EchoPin.</p>
-<p>const int PIN_LED1 = 19; // define PIN_LED1</p>
-<p>const int PIN_LED2 = 18; // define PIN_LED2</p>
-<p>const int PIN_LED3 = 17; // define PIN_LED3</p>
-<p>const int PIN_LED4 = 16; // define PIN_LED4</p>
-<p>int duration = 0; // define the initial value of the duration to be 0</p>
-<p>int distance = 0; // define the initial value of the distance to be 0</p>
-<p>void setup()</p>
-<p></p>
-<p>void loop()</p>
-<p></p>
-<p>else</p>
-<p></p>
-<p>if ( distance &lt;= 14 )</p>
-<p></p>
-<p>else</p>
-<p></p>
-<p>if ( distance &lt;= 21 )</p>
-<p></p>
-<p>else</p>
-<p></p>
-<p>if ( distance &lt;= 28 )</p>
-<p></p>
-<p>else</p>
-<p></p>
-<p>}</p>
-<p>//**********************************************************************************</p></td>
-</tr>
-</tbody>
-</table>
+```c
+//**********************************************************************************
+/*  
+ * Filename    : Ultrasonic Ranger
+ * Description : four leds are controlled by ultrasonic ranging.
+ * Auther      : http//www.keyestudio.com
+*/
+const int TrigPin = 27;    // define TrigPin
+const int EchoPin = 26;    // define EchoPin.
+const int PIN_LED1 = 19;    // define PIN_LED1
+const int PIN_LED2 = 18;    // define PIN_LED2
+const int PIN_LED3 = 17;    // define PIN_LED3
+const int PIN_LED4 = 16;    // define PIN_LED4
+int duration = 0;    // define the initial value of the duration to be 0
+int distance = 0;   // define the initial value of the distance to be 0
+void setup() 
+{
+  pinMode(TrigPin , OUTPUT); // set trigPin to output mode
+  pinMode(EchoPin , INPUT); // set echoPin to input mode
+  pinMode(PIN_LED1 , OUTPUT);  // set PIN_LED1 to output mode
+  pinMode(PIN_LED2 , OUTPUT);  // set PIN_LED2 to output mode
+  pinMode(PIN_LED3 , OUTPUT);  // set PIN_LED3 to output mode
+  pinMode(PIN_LED4 , OUTPUT);  // set PIN_LED4 to output mode
+  Serial.begin(115200);  // Open serial monitor at 115200 baud to see ping results.
+}
+void loop()
+{
+// make trigPin output high level lasting for 10μs to triger HC_SR04 
+  digitalWrite(TrigPin , HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TrigPin , LOW);
+// Wait HC-SR04 returning to the high level and measure out this waitting time
+  duration = pulseIn(EchoPin , HIGH);
+// calculate the distance according to the time
+  distance = (duration/2) / 28.5 ;
+  Serial.print("Distance: ");
+  Serial.print(distance); //Serial port print distance value
+  Serial.println("cm");
+  if ( distance <= 7 )
+  {
+    digitalWrite(PIN_LED1, HIGH);
+  }
+  else
+  {
+    digitalWrite(PIN_LED1, LOW);
+  }
+  if ( distance <= 14 )
+  {
+    digitalWrite(PIN_LED2, HIGH);
+  }
+  else
+  {
+    digitalWrite(PIN_LED2, LOW);
+  }
+  if ( distance <= 21 )
+  {
+    digitalWrite(PIN_LED3, HIGH);
+  }
+  else
+  {
+    digitalWrite(PIN_LED3, LOW);
+  }
+  if ( distance <= 28 )
+  {
+    digitalWrite(PIN_LED4, HIGH);
+  }
+  else
+  {
+    digitalWrite(PIN_LED4, LOW);
+  }
+}     
+//**********************************************************************************
+```
 
-Before uploading Test Code to Raspberry Pi Pico, please check the
-configuration of Arduino IDE.
+
+Before uploading Test Code to Raspberry Pi Pico, please check the configuration of Arduino IDE.
 
 Click "Tools" to confirm that the board type and ports.
 
-![](/media/5e135a7b2824cd5a6f1d64600cac8a74.png)
+![image-20230423154802641](media/image-20230423154802641.png)
 
-Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code to the Raspberry
+Click ![image-20230423154811617](media/image-20230423154811617.png) to upload the test code to the Raspberry
 Pi Pico board
 
-![](/media/62709f7c79dae97836d58fe455042191.png)
+![image-20230423154817169](media/image-20230423154817169.png)
 
-![](/media/34397dbcdf57d315435d4e987778b72c.png)
+![image-20230423154824147](media/image-20230423154824147.png)
 
-7.  **Test Result：**
+### **6. Test Result：**
 
-Upload the code to the pico board, power up with a USB cable and open
-the serial monitor and set baud rate to 115200.
+Upload the code to the pico board, power up with a USB cable and open the serial monitor and set baud rate to 115200. 
 
-The monitor will show distance values between the sensor and the
-obstacle. If put your hand before the sensor, the LED will be on.
+The monitor will show distance values between the sensor and the obstacle. If put your hand before the sensor, the LED will be on.
