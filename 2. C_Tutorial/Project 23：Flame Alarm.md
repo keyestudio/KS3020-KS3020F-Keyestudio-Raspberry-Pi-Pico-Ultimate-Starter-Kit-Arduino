@@ -1,10 +1,10 @@
 # Project 23：Flame Alarm
 
-### 1.**Introduction**
+1.**Introduction**
 
 In this project, we will use the pico board, a flame sensor and a buzzer to make fire alarm devices.
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423143454021](media/image-20230423143454021.png) | ![image-20230423143501885](media/image-20230423143501885.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -20,7 +20,7 @@ In this project, we will use the pico board, a flame sensor and a buzzer to make
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 ![image-20230423143629598](media/image-20230423143629598.png)
 
@@ -42,7 +42,7 @@ Since vulnerable to radio frequency radiation and temperature changes, the flame
 
 
 
-### 4.**Read the Simulation Value**
+4.**Read the Simulation Value**
 
 We start with a simple code to read the value of the flame sensor and print it on the serial monitor. For wiring, please refer to the following wiring diagram.
 
@@ -97,7 +97,7 @@ The monitor will show the analog value. When the sensor is closed to fire, the a
 
 ![](/media/b578ae0004b44405bac340bc62138a80.png)
 
-### 5.**Circuit diagram and wiring diagram:**
+5.**Circuit diagram and wiring diagram:**
 
 We will make a fun project - fire alarm device using flame sensor and buzzer, LED. When the flame sensor detects a flame, the LED flashes and the buzzer alarms.
 
@@ -105,7 +105,7 @@ We will make a fun project - fire alarm device using flame sensor and buzzer, LE
 
 ![](/media/0cd1ee17a6f8de81464817090c5832eb.png)
 
-### 6.**Test Code:**
+6.**Test Code:**
 
 Note：![](/media/4b3a41657bb185bc081cc3768c117634.png)you can set the threshold value.
 
@@ -161,7 +161,7 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/be6fb92934f8d704ac8cfae22db7ef43.png)
 
-### 7.**Result**
+7.**Result**
 
 Upload the code and power up. monitor will display the value of the flame sensor. 
 

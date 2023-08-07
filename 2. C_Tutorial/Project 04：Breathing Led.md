@@ -1,10 +1,10 @@
 # Project 04: Breathing Led
 
-### **1. Introduction**
+**1. Introduction**
 
 In this project, we will learn the PWM control of ARDUINO. PWM is Pulse Width Modulation, which is a technique that encodes analog signal levels into digital signal levels. We will use PWM to control the brightness of LED.
 
-### **2. Components**
+**2. Components**
 
 | ![image-20230423110651581](media/image-20230423110651581.png) | ![image-20230423110654918](media/image-20230423110654918.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -18,11 +18,11 @@ In this project, we will learn the PWM control of ARDUINO. PWM is Pulse Width Mo
 
 
 
-### **3. Component Knowledge**
+**3. Component Knowledge**
 
 ![](/media/6549bdbfd4e7b6b2b341012105d655e8.png)
 
-#### **Working principle** 
+**Working principle** 
 
 It can control the brightness of LED, the speed of DC motors and Servo motors, and outputs square wave signal. If we want to dim the LED,  we can change the ON(open) and OFF(close) time of the signal. When we change the time of ON and OFF fast enough, then the brightness of the LED will change. Here are some terms related to PWM as follows.
 
@@ -36,7 +36,7 @@ Duty cycle: The percentage of time when the signal is at a high level for a cert
 
 ![](/media/a439e1bd8a4578b43b7188c821d58594.jpeg)
 
-#### **Arduino and PWM**
+**Arduino and PWM**
 
 The Arduino IDE has a built-in function “analogWrite()” that can be used to generate PWM signals. Most of the pins generate signals with a frequency of about 490Hz and we can use this function to give values from 0 to 255.
 
@@ -46,7 +46,7 @@ The Arduino IDE has a built-in function “analogWrite()” that can be used to 
 
 
 
-### **4. Circuit Diagram and** **Wiring Diagram**
+**4. Circuit Diagram and** **Wiring Diagram**
 
 ![](/media/cb069d7553d861e3293d8bdbe85bbd05.png)
 
@@ -62,7 +62,7 @@ How to identify the 220Ω 5-band resistor
 
 ![](/media/55c0199544e9819328f6d5778f10d7d0.png)
 
-### **5.Test Code：**
+**5.Test Code：**
 
 The design of this project makes GP16 output PWM, and the pulse width gradually increases from 0% to 100%, and then gradually decreases from 100% to 0%.
 
@@ -109,7 +109,7 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/bd515e04ca72e8eba1b6a046131d5e0a.png)
 
-### **6. Result**
+**6. Result**
 
 After burning the project code, connecting the wires according to the wiring diagram, and powering on, the LED lights up gradually, and then gradually darkens.
 

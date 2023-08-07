@@ -1,6 +1,6 @@
 # Project 34：IR Control Sound and LED
 
-### 1.**Introduction**
+1.**Introduction**
 
 Infrared remote control is a low-cost, easy-to-use wireless communication technology. IR light is very similar to visible light, except that it has a slightly longer wavelength. This means that infrared rays cannot be detected by the human eye, which is perfect for wireless communication. 
 
@@ -10,7 +10,7 @@ We will first explain how common IR communication protocols work. Then we will s
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423163106273](media/image-20230423163106273.png) | ![image-20230423163112801](media/image-20230423163112801.png) | ![image-20230423163116690](media/image-20230423163116690.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -24,7 +24,7 @@ We will first explain how common IR communication protocols work. Then we will s
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 **IR Remote Controller**: 
 
@@ -56,7 +56,7 @@ I do admit that I don't know exactly who developed it. What I do know is that it
 
 This description was taken from my VCR's service manual. Those were the days, when service manuals were filled with useful information! 
 
-### 4.**Features**
+4.**Features**
 
 - 8 bit address and 8 bit command length.
 - Extended mode available, doubling the address size.
@@ -107,7 +107,7 @@ The command redundancy is still preserved. Therefore each address can still hand
 
 Keep in mind that 256 address values of the extended protocol are invalid because they are in fact normal NEC protocol addresses. Whenever the low byte is the exact inverse of the high byte it is not a valid extended address.
 
-### 5.**Decoding：**
+5.**Decoding：**
 
 Wire up the pico board
 
@@ -171,7 +171,7 @@ Circuit diagram and wiring diagram:
 
 ![image-20230423163731330](media/image-20230423163731330.png)
 
-### 6.**Test Code**
+6.**Test Code**
 
 Go to the folder KS3020 Keyestudio Raspberry Pi Pico Learning Kit Ultimate Edition\2. Windows  System\2. C_Tutorial\2. Projects\Project 34：IR Control Sound and LED\Project_34.2_IR_Control_Sound_And_LED
 
@@ -291,7 +291,7 @@ Click ![image-20230423163829841](media/image-20230423163829841.png) to upload th
 
 ![image-20230423163848092](media/image-20230423163848092.png)
 
-### 7.**Test Result：**
+7.**Test Result：**
 
 Upload the code and power up. Press the key 1-7, the buzzer will emit do, re, mi, fa, sol, la and si, at same time, the RGB will show red, green, blue, yellow, dark red, blue-green and white color. If pressing the rest of keys, the buzzer will stop playing and the RGB will be off.
 

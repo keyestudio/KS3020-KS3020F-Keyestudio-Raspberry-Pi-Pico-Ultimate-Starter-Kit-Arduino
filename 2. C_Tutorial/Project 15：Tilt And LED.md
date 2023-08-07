@@ -1,10 +1,10 @@
 # Project 15：Tilt And LED
 
-### **1.Introduction**
+**1.Introduction**
 
 In this lesson, we will use a PLUS mainboard , a tilt switch and 4 LEDs to make an electronic hourglass.
 
-### **2.Components Required**
+**2.Components Required**
 
 | ![image-20230423132900038](media/image-20230423132900038.png) | ![image-20230423132909731](media/image-20230423132909731.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -20,7 +20,7 @@ In this lesson, we will use a PLUS mainboard , a tilt switch and 4 LEDs to make 
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 ![](/media/8c40739f8e05f753f145420b421a0f47.png)
 
@@ -36,7 +36,7 @@ As shown in the figure, use the internal structure of the tilt switch to illustr
 
 ![](/media/bf8b10ad248ac939ac4ef96d02ed87c7.png)
 
-### 4.**Circuit Diagram and Wiring Diagram**
+4.**Circuit Diagram and Wiring Diagram**
 
 ![](/media/8735f9531646b77c35932404a681b76d.png)
 
@@ -54,7 +54,7 @@ How to identify the 220Ω 5-band resistor and 10KΩ 5-band resistor
 
 <img src="/media/246cf3885dc837c458a28123885c9f7b.png" style="zoom:50%;" />
 
-### 5.**Test Code**
+5.**Test Code**
 
 Go to the folder KS3020 Keyestudio Raspberry Pi Pico Learning Kit Ultimate Edition\\2. Windows System\\2. C\_Tutorial\\2. Projects\\Project 15：Tilt And LED\\Project\_15\_Tilt\_And\_LED
 
@@ -117,7 +117,7 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/f8c6f1cf9c06c1b819803356ed8ae417.png)
 
-### 6.**Result**
+6.**Result**
 
 Upload project code, wire up and power up, hold the breadboard. 
 

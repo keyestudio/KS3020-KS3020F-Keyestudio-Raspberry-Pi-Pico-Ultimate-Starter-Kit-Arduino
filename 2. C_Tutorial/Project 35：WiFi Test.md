@@ -1,6 +1,6 @@
 # Project 35：WiFi Test
 
-### 1.**Introduction**
+1.**Introduction**
 
 ESP8266 serial WiFi ESP-01 module is an ultra-low-power UART-WiFi transparent transmission module and designed for mobile devices and IoT applications. 
 
@@ -8,7 +8,7 @@ The physical device of the user can be connected to Wi-Fi wireless network for I
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423164125965](media/image-20230423164125965.png) | ![image-20230423164130488](media/image-20230423164130488.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -16,7 +16,7 @@ The physical device of the user can be connected to Wi-Fi wireless network for I
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 ![image-20230423164147649](media/image-20230423164147649.png)
 
@@ -34,7 +34,7 @@ ESP8266 serial WiFi ESP-01 is an ultra-low-power UART-WiFi transparent transmiss
 
 
 
-### 4.**Interface the Shield with the Computer**
+4.**Interface the Shield with the Computer**
 
 Insert the ESP8266 serial WiFi ESP-01 module in the correct orientation into the USB to ESP-01S WiFi module serial shield.
 
@@ -72,7 +72,7 @@ After the driver installation is complete, right click“Computer”—\>“Prop
 
 ![image-20230423164449589](media/image-20230423164449589.png)
 
-### 5.**Set up** **the Development Environment**
+5.**Set up** **the Development Environment**
 
 Insert the ESP8266 serial WiFi ESP-01 module into the USB to ESP-01S WiFi module serial shield correctly, and then plug the shield into the USB port of the computer. Click to enter the arduino-1.8.16 folder (you can also use the latest version). 
 
@@ -102,7 +102,7 @@ After successful installation, Click“**Close**”to close the page, and then c
 
 ![image-20230423164721647](media/image-20230423164721647.png)
 
-### 6. **Installation of ESP8266 by tools** **(Recommended)**
+6. **Installation of ESP8266 by tools** **(Recommended)**
 
 Click “**File”** →“**Preferences**”, copy http://arduino.esp8266.com/stable/package\_esp8266com\_index.json as follows; and click “**OK**”
 
@@ -123,7 +123,7 @@ Click “**File”** →“**Preferences**”, copy http://arduino.esp8266.com/s
 
    ![image-20230423164835744](media/image-20230423164835744.png)
 
-### 7.**WiFi Test Code**
+7.**WiFi Test Code**
 
 Note: After opening the IDE, set the board type and COM port first. If you don't have WiFi at home, you can turn your phone hotspot on to share WiFi.
 
@@ -250,7 +250,7 @@ void loop(void) {
 
 
 
-### 8.**Result**
+8.**Result**
 
 Note: You need to change the user WiFi name and user WiFi password in the project code to your own WiFi name and WiFi password.
 

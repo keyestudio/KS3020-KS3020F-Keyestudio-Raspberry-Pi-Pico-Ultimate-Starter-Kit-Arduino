@@ -1,12 +1,12 @@
 # Project 18：Small Fan
 
-### 1.**Introduction**
+1.**Introduction**
 
 In the hot summer, we need an electric fan to cool us down, so in this project, we will use the Plus control board to control 130 motor module and small blade to make a small fan.
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423134601424](media/image-20230423134601424.png) | ![image-20230423134605918](media/image-20230423134605918.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -18,7 +18,7 @@ In the hot summer, we need an electric fan to cool us down, so in this project, 
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 <img src="/media/a572bcde7a5e3bf01d273b3d9a024701.png" style="zoom: 33%;" />
 
@@ -32,7 +32,7 @@ The low on-resistance ensures low power loss of the chip, making the chip work s
 
 
 
-### 4.**Features:**
+4.**Features:**
 
 - Working voltage: 5V
 
@@ -44,13 +44,13 @@ The low on-resistance ensures low power loss of the chip, making the chip work s
 
 
 
-### 5.**Schematic diagram:**
+5.**Schematic diagram:**
 
 ![image-20230423135214591](media/image-20230423135214591.png)
 
 
 
-### 6.**Circuit Diagram and Wiring Diagram**
+6.**Circuit Diagram and Wiring Diagram**
 
 ![](/media/98c9335e5ef2e5304e2cddde04e6e168.png)
 
@@ -58,7 +58,7 @@ The low on-resistance ensures low power loss of the chip, making the chip work s
 
 
 
-### 7.**Test Code：**
+7.**Test Code：**
 
 Go to the folder KS3020 Keyestudio Raspberry Pi Pico Learning Kit Ultimate Edition\\2. Windows System\\2. C\_Tutorial\\2. Projects\\Project 18：Small Fan\\Project\_18\_Small\_Fan
 
@@ -108,6 +108,6 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 
 
-### 8.**Test Result**
+8.**Test Result**
 
 Upload the code, power up via a USB cable. The fan will rotate clockwise for 5s, stop for 2s, anticlockwise for 5s and stop for 2s.

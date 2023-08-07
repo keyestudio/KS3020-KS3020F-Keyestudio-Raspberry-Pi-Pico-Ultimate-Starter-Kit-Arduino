@@ -1,6 +1,6 @@
 # Project 24：Night Lamp
 
-### 1.**Introduction**
+1.**Introduction**
 
 Sensors or components are ubiquitous in our daily life. 
 
@@ -12,7 +12,7 @@ In this lesson we will use  Raspberry Pi Pico to control LEDs to implement the f
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423144120457](media/image-20230423144120457.png) | ![image-20230423144124818](media/image-20230423144124818.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -28,7 +28,7 @@ In this lesson we will use  Raspberry Pi Pico to control LEDs to implement the f
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 ![image-20230423144238178](media/image-20230423144238178.png)
 
@@ -49,7 +49,7 @@ Thus, the intensity of light can be obtained by measuring this voltage.
 
 
 
-### 4.**Read the Analog Value**
+4.**Read the Analog Value**
 
 We first use a simple code to read the value of the photoresistor, print it in the serial monitor. For wiring, please refer to the following wiring diagram.
 
@@ -57,7 +57,7 @@ We first use a simple code to read the value of the photoresistor, print it in t
 
 ![](/media/b97ff27ae10e3499c36312c8ee4881f8.png)
 
-### 5.**Test Code**
+5.**Test Code**
 
 Go to the folder KS3020 Keyestudio Raspberry Pi Pico Learning Kit Ultimate Edition\\2. Windows System\\2. C\_Tutorial\\2. Projects\\Project 24：Night Lamp\\Project\_24.1\_Read\_Photosensitive\_Analog\_Value.
 
@@ -104,7 +104,7 @@ When the light intensity around the sensor gets dim, the analog value displayed 
 
 ![](/media/b578ae0004b44405bac340bc62138a80.png)
 
-### 6.**Circuit Diagram and Wiring Diagram**
+6.**Circuit Diagram and Wiring Diagram**
 
 Next, we make a light-control lamp.
 
@@ -154,6 +154,6 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/8d1f2a698fae68f8de0e1820f5ac288e.png)
 
-### 7.**Test Result:**
+7.**Test Result:**
 
 After the project code is uploaded successfully and power up. when the light intensity gets weak, the LED will becomes brighter; otherwise, the LED will become darker.

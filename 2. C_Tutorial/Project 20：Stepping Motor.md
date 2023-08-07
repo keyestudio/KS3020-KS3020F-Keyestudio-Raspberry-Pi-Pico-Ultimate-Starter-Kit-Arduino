@@ -1,6 +1,6 @@
 # Project 20：Stepping Motor
 
-### 1.**Introduction**
+1.**Introduction**
 
 Stepper motors are accurately positioned and are the most important components in industrial robots, 3D printers, large lathes, and other mechanical devices. 
 
@@ -8,7 +8,7 @@ In this project, we will use a stepper motor and a clock paper card to make a cl
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423135835986](media/image-20230423135835986.png) | ![image-20230423135840453](media/image-20230423135840453.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -20,7 +20,7 @@ In this project, we will use a stepper motor and a clock paper card to make a cl
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 <img src="/media/8ebb14a35091dc8d02d95cb6748dd1e9.png" style="zoom:50%;" />
 
@@ -34,7 +34,7 @@ There are two basic types of stepping motors, namely unipolar stepping motor and
 
 <img src="/media/bea0e202b7bfe23d1fdcdbbe996aa6da.jpeg" style="zoom:50%;" />
 
-### 4.**Working Principle:**
+4.**Working Principle:**
 
 The stepper motor is mainly composed of a stator and a rotor. 
 
@@ -72,13 +72,13 @@ The following schematic diagram shows how to use the ULN2003 stepper motor drive
 
 ![](media/6fa632d2b70e97dd55565d23ec15d245.png)
 
-### 5.**Schematic Diagram and Wiring Diagram**
+5.**Schematic Diagram and Wiring Diagram**
 
 ![](/media/ba02656bb1cb44ce8edb187a10dc7bef.png)
 
 <img src="/media/6f72f7b5f6a520099d7714236372a9fe.png" style="zoom:50%;" />
 
-### 6.**Test Code：**
+6.**Test Code：**
 
 You can open the code we provide:
 
@@ -156,7 +156,7 @@ Click "Tools" to confirm that the board type and ports.
 
 ![](/media/50f642c3f5ebdc08e933b1cb1fcd9608.png)
 
-### 7.**Result**
+7.**Result**
 
 Upload the project code to the pico board, wire up and power on first. 
 

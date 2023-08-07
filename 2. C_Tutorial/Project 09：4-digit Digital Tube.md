@@ -1,6 +1,6 @@
 # Project 09：4-Digit Digital Tube
 
-### **1. Introduction**
+**1. Introduction**
 
 The 4-digit 7-segment digital tube is a very practical display device, and it is used for devices such as electronic clocks and score counters. Due to the low price and it is easy to use, more and more projects will use 4-digit 7-segment digital tubes. 
 
@@ -8,7 +8,7 @@ In this project, we will use the PLUS control board to control a 4-bit 7-segment
 
 
 
-### **2. Components Required**
+**2. Components Required**
 
 | ![image-20230423113537698](media/image-20230423113537698.png) | ![image-20230423113543258](media/image-20230423113543258.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -20,7 +20,7 @@ In this project, we will use the PLUS control board to control a 4-bit 7-segment
 
 
 
-### **3. Component Knowledge**
+**3. Component Knowledge**
 
 <img src="/media/723dc2c4078b7d3f84b7f1ae76edbabe.png" style="zoom: 50%;" />
 
@@ -41,13 +41,13 @@ It is a 12-pin 4-digit tube display module with clock dots. The driver chip is T
 
 ![](/media/5f400887c90fc00098a3e77beca656ef.png)
 
-### **4. Wiring Diagram**
+**4. Wiring Diagram**
 
 ![](/media/80f5738cf821288fff6ba0aba11fc453.png)
 
 ![](/media/39b708e69b2fb10057b71fe2321584b2.png)
 
-### **5. Adding the TM1650 library：**
+**5. Adding the TM1650 library：**
 
 If you added the **TM1650 library, just skip this step.**
 
@@ -115,6 +115,6 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/bbaa6a71cfba7e57b2bab852f09a275b.png)
 
-### **7. Result**
+**7. Result**
 
 Upload the project code, wire up and power on, 4-digit digital tube circularly displays numbers from 0000 to 9999.

@@ -1,6 +1,6 @@
 # Project 17： I2C 128×32 LCD
 
-### 1.**Introduction**
+1.**Introduction**
 
 We can use modules such as monitors to do various experiments in life. You can also DIY a variety of small objects. For example, you can make a temperature meter with a temperature sensor and display, or make a distance meter with an ultrasonic module and display.
 
@@ -8,7 +8,7 @@ In this project, we will use the LCD_128X32_DOT module as a display and connect 
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423133942449](media/image-20230423133942449.png) | ![image-20230423133948714](media/image-20230423133948714.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -18,7 +18,7 @@ In this project, we will use the LCD_128X32_DOT module as a display and connect 
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 <img src="/media/2c2645e94a00867ac23e8a022f0a631a.png" style="zoom:50%;" />
 
@@ -32,11 +32,11 @@ When using, we can also set it in the code so that the  English letters and symb
 
 
 
-### 4.**Schematic diagram:**
+4.**Schematic diagram:**
 
 ![](/media/5451aed32bc5b7b30fbd5613ad09a65b.png)
 
-### 5.**Features:**
+5.**Features:**
 
 - Pixel：128\*32 character
 
@@ -48,7 +48,7 @@ When using, we can also set it in the code so that the  English letters and symb
 
 
 
-### 6.**Connection Diagram**
+6.**Connection Diagram**
 
 **Attention**: 
 
@@ -56,7 +56,7 @@ You must use a 10CM short male-to-female DuPont cable to connect the LCD\_128X32
 
 <img src="/media/82aae0a70e5628c53d7f81f7730cf79a.png" style="zoom:67%;" />
 
-### 7.Adding the lcd128\_32\_io library：
+7.Adding the lcd128\_32\_io library：
 
 We need the **lcd128\_32\_io library.** You can add it as follows:
 
@@ -70,7 +70,7 @@ Click LCD\_128X32.Zip，the click“Open”
 
 ![](/media/10f94cc56656e117574dee83c7ce444f.png)
 
-### 8.**Test Code：**
+8.**Test Code：**
 
 After adding the **lcd128\_32\_io library, you can open the code we provide;**
 
@@ -121,7 +121,7 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/3bfc89e3c36cf32916a5b5b33c8b41b6.png)
 
-### 9.**Test Result：**
+9.**Test Result：**
 
 Upload the test code, wire up and power on, the LCD module display will show "KEYESTUDIO" at the first line. 
 

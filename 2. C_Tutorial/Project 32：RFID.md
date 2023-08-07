@@ -1,6 +1,6 @@
 # Project 32：RFID
 
-### 1.**Introduction**
+1.**Introduction**
 
 Nowadays, many residential districts use this function to open the door by swiping the card, which is very convenient. 
 
@@ -8,7 +8,7 @@ In this lesson, we will learn how to use RFID(radio frequency identification) wi
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423160437022](media/image-20230423160437022.png) | ![image-20230423160441342](media/image-20230423160441342.png) | ![image-20230423160458126](media/image-20230423160458126.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -20,7 +20,7 @@ In this lesson, we will learn how to use RFID(radio frequency identification) wi
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 **RFID**
 
@@ -46,7 +46,7 @@ The RFID module uses the MFRC522 as the control chip and adopts I2C (Inter-Integ
 
 ![image-20230423160709975](media/image-20230423160709975.png)
 
-### 4.**Specifications:**
+4.**Specifications:**
 
 - Operating voltage: DC 3.3V-5V
 - Operating current: 13—100mA/DC 5V
@@ -63,7 +63,7 @@ The RFID module uses the MFRC522 as the control chip and adopts I2C (Inter-Integ
 
 
 
-### 5.**Read the Card Number Value**
+5.**Read the Card Number Value**
 
 We will read the UNIQUE ID number (UID) of the RFID card and identify its type . And display relevant information through the "Shell" window of Thonny IDE. 
 
@@ -73,7 +73,7 @@ The wiring diagram is as follows:
 
 
 
-### 6.**Adding the MFRC522\_I2C and Wire libraries：**
+6.**Adding the MFRC522\_I2C and Wire libraries：**
 
 Open Arduino IDE and click“Sketch”→“Include Library”→“Add .zip Library...”.
 
@@ -153,7 +153,7 @@ Note: the door card value and key chain value may be different for different RR
 
 
 
-### 7.**Circuit Diagram and Wiring diagram**
+7.**Circuit Diagram and Wiring diagram**
 
 Now we use a RFID-RC522 module, door card/key chain and servo to simulate an intelligent access control system. When the door card is close to the RFID-RC522 module induction area, the servo rotates. 
 
@@ -161,7 +161,7 @@ Wiring according to the figure below:
 
 ![image-20230423161621927](media/image-20230423161621927.png)
 
-### 8.**Adding library MFRC522\_I2C，Wire and Servo：**
+8.**Adding library MFRC522\_I2C，Wire and Servo：**
 
 If both of them are added, just skip this step,.
 
@@ -181,7 +181,7 @@ If you add MFRC522\_I2Cand Wire, you don’t need to add them.
 
 
 
-### 9.**Test Code：**
+9.**Test Code：**
 
 Go to the code KS3020 Keyestudio Raspberry Pi Pico Learning Kit Ultimate Edition\2. Windows  System\2. C_Tutorial\2. Projects\Project 32：RFID\Project_32.2_RFID_Control_Servo
 
@@ -251,7 +251,7 @@ Click ![image-20230423161842224](media/image-20230423161842224.png) to upload th
 
 ![image-20230423161855802](media/image-20230423161855802.png)
 
-### 10.**Test Result：**
+10.**Test Result：**
 
 Upload the code to the pico board, power up with a USB cable and open the serial monitor and set baud rate to 115200.
 

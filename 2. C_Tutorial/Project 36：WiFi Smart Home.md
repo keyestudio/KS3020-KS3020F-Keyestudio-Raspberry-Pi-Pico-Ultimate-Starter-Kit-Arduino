@@ -1,6 +1,6 @@
 # Project 36：WiFi Smart Home
 
-### 1.**Introduction**
+1.**Introduction**
 
 In the previous project 34, we already knew how to connect the APP to WiFi and also use the APP to control the LED on and off on the pico board through WiFi for a simple experiment. 
 
@@ -8,7 +8,7 @@ In this project, we will use APP to control multiple sensors or modules through 
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423165149952](media/image-20230423165149952.png) | ![image-20230423165154752](media/image-20230423165154752.png) | ![image-20230423165159216](media/image-20230423165159216.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -36,7 +36,7 @@ In this project, we will use APP to control multiple sensors or modules through 
 
 ​    
 
-### 3.**ESP8266 Code：**
+3.**ESP8266 Code：**
 
 Note: open Arduino IDE, set the ESP8266 board type and COM ports. If you don’t have wifi in your home, just open your hotspot of your cellphone to connect with the device.
 
@@ -333,7 +333,7 @@ Click ![img](media/wps6.jpg) to upload the test code to the ESP8266 serial WiFi 
 
 After the test code is uploaded successfully, first unplug the shield from the USB port of the computer, and then unplug the ESP8266 serial WiFi ESP-01 module from the shield.
 
-### 4.**Wiring Diagram**
+4.**Wiring Diagram**
 
 <table>
 <tbody>
@@ -461,7 +461,7 @@ After the test code is uploaded successfully, first unplug the shield from the U
 
 ![image-20230423165616610](media/image-20230423165616610.png)
 
-### 5.**Project Code**
+5.**Project Code**
 
 Note: After opening the IDE, be sure to set the board type and COM port first. If you don't have WiFi at home, you need to turn your phone hotspot on to share WiFi.
 
@@ -603,7 +603,7 @@ int checkdistance() {
 
 
 
-### 6.**Result**
+6.**Result**
 
 Note: Before uploading the project code, you need to unplug the TX and RX cables connected to the pico board first, otherwise the code will not be uploaded successfully. 
 
@@ -623,9 +623,9 @@ In this way, the serial monitor shows the IP address of your WiFi. (The IP addre
 
 ![image-20230423165754486](media/image-20230423165754486.png)
 
-### 7.**App**
+7.**App**
 
-#### **For Android system devices(mobile phone/iPad)**
+**For Android system devices(mobile phone/iPad)**
 
 Now transfer the “keyes wifi.apk” file from the folder to your Android phone or iPad, click the “keyes wifi.apk” file to enter the installation page. Click the "**ALLOW**" button, and then click the "**INSTALL**" button. Click the "**Open**" button to enter the APP interface after the installation is completed.
 
@@ -655,7 +655,7 @@ Enter the detected WiFi IP address in the text box in front of the WiFi button (
 
 ![image-20230423170006358](media/image-20230423170006358.png)
 
-##### For IOS system devices (mobile phone/iPad)
+For IOS system devices (mobile phone/iPad)
 
 Open App Store.
 

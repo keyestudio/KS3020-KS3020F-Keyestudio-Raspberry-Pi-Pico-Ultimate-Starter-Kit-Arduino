@@ -1,6 +1,6 @@
 # Project 22: Dimming Light
 
-### 1.**Introduction**
+1.**Introduction**
 
 A potentiometer is a three-terminal resistor with a sliding or rotating contact that forms an adjustable voltage divider. It works by varying the position of a sliding contact across a uniform resistance. 
 
@@ -10,7 +10,7 @@ In this project, we are going to learn how to use Arduino to read the values of 
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423142832665](media/image-20230423142832665.png) | ![image-20230423142836906](media/image-20230423142836906.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -24,7 +24,7 @@ In this project, we are going to learn how to use Arduino to read the values of 
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 ![](/media/c397aba3de644bb70ffa7a9139a5499e.png)
 
@@ -34,7 +34,7 @@ It is a kind of resistor and an analog electronic component, which has two state
 
 
 
-### 4.**Read the Potentiometer Value**
+4.**Read the Potentiometer Value**
 
 We connect the adjustable potentiometer to the analog pin of Arduino to read its value. Please refer to the following wiring diagram for wiring.
 
@@ -89,7 +89,7 @@ When moving the knob of the potentiometer is turned, the ADC value and voltage v
 
 ![](/media/b578ae0004b44405bac340bc62138a80.png)
 
-### 5. **Circuit diagram and wiring diagram:**
+5. **Circuit diagram and wiring diagram:**
 
 In the previous step, we read the ADC value and voltage value of the potentiometer. Then we need to convert the ADC value into the brightness of the LED to make a light with adjustable brightness. 
 
@@ -99,7 +99,7 @@ As shown below:
 
 <img src="/media/93b03f3cdc8af506d9035b748839ac33.png" style="zoom:50%;" />
 
-### 6.**Test Code：**
+6.**Test Code：**
 
 You can open the code we provide:
 
@@ -141,7 +141,7 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/253f62831ea3f689bd39036b8fa92be1.png)
 
-### 7.**Test Result:**
+7.**Test Result:**
 
 Upload the code to Raspberry Pi Pico, change the input voltage of GP26 by turning the potentiometer.
 

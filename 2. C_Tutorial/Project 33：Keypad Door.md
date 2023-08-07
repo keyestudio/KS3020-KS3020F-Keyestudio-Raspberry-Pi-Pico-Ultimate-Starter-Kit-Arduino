@@ -1,12 +1,12 @@
 # Project 33：Keypad Door
 
-### 1.**Introduction**
+1.**Introduction**
 
 Matrix keypads are the kind of keypads you see on cell phones, calculators, microwaves ovens, door locks, etc. They’re practically everywhere.
 
 In this project, we will learn Raspberry Pi Pico and membrane 4\*4 matrix keyboard to control servos and buzzers in the future.
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423162246826](media/image-20230423162246826.png) | ![image-20230423162253211](media/image-20230423162253211.png) | ![image-20230423162338379](media/image-20230423162338379.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -18,7 +18,7 @@ In this project, we will learn Raspberry Pi Pico and membrane 4\*4 matrix keyboa
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 **4*4 Matrix keyboard:**
 
@@ -38,7 +38,7 @@ Take the column scan method as an example. Send a low level to column 4 (Pin4), 
 
 
 
-### 4.**Read the Value**
+4.**Read the Value**
 
 We start with a simple code to read the values of the 4\*4 matrix keyboard and print them in the serial monitor. Its wiring diagram is shown below.
 
@@ -94,7 +94,7 @@ Upload the code and power up with a USB cable, open the monitor and set baud rat
 
 
 
-### 5.**Circuit diagram and wiring diagram:**
+5.**Circuit diagram and wiring diagram:**
 
 We control the servo and the buzzer with a 4\*4 dot matrix module.
 
@@ -102,7 +102,7 @@ We control the servo and the buzzer with a 4\*4 dot matrix module.
 
 ![image-20230423162813304](media/image-20230423162813304.png)
 
-### 6.**Test Code：**
+6.**Test Code：**
 
 You can open the code we provide:
 
@@ -182,7 +182,7 @@ Click ![image-20230423162854184](media/image-20230423162854184.png) to upload th
 
 ![image-20230423162906317](media/image-20230423162906317.png)
 
-### 7.**Test Result:**
+7.**Test Result:**
 
 Upload the code and power up with a USB cable, you will see the phenomenon: press the keyboard to enter a 4-character password, if the input is correct (correct password: 1234), the servo will rotate at an angle, then return to the original location. An input error alert will be issued if an input is made incorrectly.
 

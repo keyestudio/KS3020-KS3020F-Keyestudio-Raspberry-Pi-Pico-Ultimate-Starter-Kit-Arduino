@@ -1,6 +1,6 @@
 # Project 10：8×8 Dot-matrix Display
 
-### **1. Introduction**
+**1. Introduction**
 
 The dot-matrix display is an electronic digital display device that can show information on machines, clocks and many other devices. 
 
@@ -8,7 +8,7 @@ In this project, we will use the pico board control the 8x8 LED dot matrix to ma
 
 
 
-### **2. Components Required**
+**2. Components Required**
 
 | ![image-20230423113831282](media/image-20230423113831282.png) | ![image-20230423113835307](media/image-20230423113835307.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -20,7 +20,7 @@ In this project, we will use the pico board control the 8x8 LED dot matrix to ma
 
 
 
-### **3. Component Knowledge**
+**3. Component Knowledge**
 
 **8*8 Dot-matrix display module:**
 
@@ -28,7 +28,7 @@ The 8\*8 dot matrix is composed of 64 LEDs, and each LED is placed at the inters
 
 For this reason, we specially designed this module, using the HT16K33 chip to drive an 8\*8 dot matrix, and only need to use the I2C communication port of the single-chip microcomputer to control the dot matrix, which greatly saves the microcontroller resources.
 
-### **4. Specifications:**
+**4. Specifications:**
 
 - Working voltage: DC 5V
 
@@ -38,7 +38,7 @@ For this reason, we specially designed this module, using the HT16K33 chip to dr
 
 
 
-### **5. Schematic diagram:**
+**5. Schematic diagram:**
 
 ![](/media/b04fe5e60695365a23644395aaef5085.png)
 
@@ -151,7 +151,7 @@ In our module, the module has fixed the communication address, A0, A1, A2 are al
 </table>
 
 
-### **6. Circuit diagram and wiring diagram:**
+**6. Circuit diagram and wiring diagram:**
 
 ![image-20230423114031407](media/image-20230423114031407.png)
 
@@ -159,7 +159,7 @@ In our module, the module has fixed the communication address, A0, A1, A2 are al
 
 
 
-### 7.Adding the Matrix library：
+7.Adding the Matrix library：
 
 The project code uses a library called Matrix. If you haven't added it yet, add it before you study. If you want to add a third-party library, please perform the following steps:
 
@@ -173,7 +173,7 @@ Find the directory named KS3020 Keyestudio Raspberry Pi Pico Learning Kit Ultima
 
 
 
-### **8. Test Code**
+**8. Test Code**
 
 **After adding the Matrix library.**
 
@@ -226,6 +226,6 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/7841abba9b2d2d5f475359be239dc26c.png)
 
-### **9. Test Result：**
+**9. Test Result：**
 
 You will view the 8\*8 dot matrix show the“❤”pattern.

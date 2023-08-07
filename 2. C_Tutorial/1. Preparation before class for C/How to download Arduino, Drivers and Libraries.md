@@ -28,7 +28,7 @@
 
 ![](/media/6cf6312dc7c7db27794b54d58a8bf80c.png)
 
-### 1.1 Download and install Arduino software
+1.1 Download and install Arduino software
 
 Enter the Arduino official website: [<span class="underline">https://www.arduino.cc/</span>](https://www.arduino.cc/) and click "SOFTWARE" to enter the download page, as shown in the following figure.
 
@@ -66,7 +66,7 @@ After the installation is complete, an Arduino software shortcut will be created
 
 ![](/media/d28223c55a30f949760779720fe4ec24.png)
 
-### 1.2.Install the Pico development board
+1.2.Install the Pico development board
 
 **Open Arduino IDE**，and click **Tools**→**Board**→**Boards Manager...**
 
@@ -86,7 +86,7 @@ Then click **Close**
 
 ![](/media/2c0d5af2d55f5796444cc6349585e920.png)
 
-### 1.3 Upload the pico firmware compatible with Arduino
+1.3 Upload the pico firmware compatible with Arduino
 
 You need to upload a pico firmware compatible with Arduino.
 

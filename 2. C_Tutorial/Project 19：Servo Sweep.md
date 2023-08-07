@@ -1,12 +1,12 @@
 # Project 19：Servo Sweep
 
-### 1.**Introduction**
+1.**Introduction**
 
 Servo is a kind of motor that can rotate very precisely. It has been widely used in toy cars, RC helicopters, airplanes, robots, etc. In this project, we will use the pico board to control the rotation of the servo.
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423135617636](media/image-20230423135617636.png) | ![image-20230423135623688](media/image-20230423135623688.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -18,7 +18,7 @@ Servo is a kind of motor that can rotate very precisely. It has been widely used
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 **Servo:**
 
@@ -46,13 +46,13 @@ The brown is GND, the red is the positive power supply, and the orange is the si
 
 
 
-### 4.**Wiring Diagram**
+4.**Wiring Diagram**
 
 The supply voltage should be 3.3V-5V. Make sure you don't get any errors when connecting the servos to the power supply
 
 ![](/media/64a80947d0cd45b50d4bd1d125509bbe.png)
 
-### 5.**Adding the Servo library：**
+5.**Adding the Servo library：**
 
 If you added the **Servo library,** just skip this step.
 
@@ -74,7 +74,7 @@ Go to the folder KS3020 Keyestudio Raspberry Pi Pico Learning Kit Ultimate Editi
 
 ![](/media/434892e57944ad4104863d97eb614690.png)
 
-### 6.**Test Code：**
+6.**Test Code：**
 
 You can open the code we provide:
 
@@ -124,7 +124,7 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/bfcb7b427f0bccfad426e9bb0307fe67.png)
 
-### 7.**Test Result：**
+7.**Test Result：**
 
 Upload the code and power up with a USB cable. The servo will rotate from 0° to 180°, then from 180° to 0° .
 

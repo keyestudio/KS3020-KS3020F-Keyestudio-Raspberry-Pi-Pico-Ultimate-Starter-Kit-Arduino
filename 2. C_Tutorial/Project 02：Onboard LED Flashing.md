@@ -1,12 +1,12 @@
 # Project 02: Onboard LED Flashing
 
-### **1. Description：**
+**1. Description：**
 
 There is an onboard LED in Raspberry Pi Pico,which is a GP25 pin attached to the Raspberry Pi Pico. In this project, we will learn the effect of making the onboard LED blink.
 
 
 
-### **2. Components**
+**2. Components**
 
 | ![image-20230423104602049](media/image-20230423104602049.png) | ![image-20230423104605129](media/image-20230423104605129.png) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -14,13 +14,13 @@ There is an onboard LED in Raspberry Pi Pico,which is a GP25 pin attached to the
 
 
 
-### **3. Wiring up**
+**3. Wiring up**
 
 In this project, Raspberry Pi Pico is connected to a computer using a USB cable. 
 
 ![](/media/8ea81d60b8e2132c358041235490b7d5.jpeg)
 
-### **4. Test Code：**
+**4. Test Code：**
 
 The onboard LED of Raspberry Pi Pico is controlled by GP25. When the GP25 outputs high, the LED will be on; when outputting LOW, the LED will be off.
 
@@ -66,7 +66,7 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/655fba85319a8194349ba1bdfee97fac.png)
 
-### **5. Test Result**
+**5. Test Result**
 
 After the project code was uploaded successfully, the LED of Raspberry Pi Pico started flashing.
 

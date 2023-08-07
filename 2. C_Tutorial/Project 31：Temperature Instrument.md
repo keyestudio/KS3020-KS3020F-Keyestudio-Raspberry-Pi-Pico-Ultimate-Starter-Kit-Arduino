@@ -1,6 +1,6 @@
 # Project 31：Temperature Instrument
 
-### 1.**Introduction**
+1.**Introduction**
 
 LM35 is a commonly used and easy-to-use temperature sensor. It does not require other hardware, only needs an analog port. The difficulty lies in compiling the code and converting the analog values to Celsius temperature. 
 
@@ -8,7 +8,7 @@ In this project, we use a temperature sensor and 3 LEDs to make a temperature te
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423155312795](media/image-20230423155312795.png) | ![image-20230423155316582](media/image-20230423155316582.png) | ![image-20230423155320597](media/image-20230423155320597.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -20,7 +20,7 @@ In this project, we use a temperature sensor and 3 LEDs to make a temperature te
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 **Thermistor**: 
 
@@ -60,7 +60,7 @@ Therefore, the temperature formula can be deduced as:
 
 ![img](media/wps2.png)
 
-### 4.**Read the Values**
+4.**Read the Values**
 
 First we will learn the thermistor to read the current ADC value, voltage value and temperature value and print them out . Please connect the wires according to the following wiring diagram.
 
@@ -127,7 +127,7 @@ A 20CM long male-to-female DuPont cable is not required because the LCD_128X32_D
 
 
 
-### 5.**Adding the lcd128\_32\_io library：**
+5.**Adding the lcd128\_32\_io library：**
 
 If you added the **lcd128\_32\_io library, just skip this step.**
 
@@ -139,7 +139,7 @@ Open Arduino IDE，click “Sketch”→“Include Library”→“Add .zip Libr
 
 ![image-20230423160013652](media/image-20230423160013652.png)
 
-### 6.**Test Code：**
+6.**Test Code：**
 
 You can open the code we provide:
 
@@ -200,6 +200,6 @@ Click ![image-20230423160104440](media/image-20230423160104440.png) to upload th
 
 ![image-20230423160120392](media/image-20230423160120392.png)
 
-### 7.**Test Result：**
+7.**Test Result：**
 
 Upload the code and power up with a USB cable. The LCD 128X32 DOT will show the voltage value and temperature value.

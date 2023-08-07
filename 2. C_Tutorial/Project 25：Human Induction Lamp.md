@@ -1,6 +1,6 @@
 # Project 25：Human Induction Lamp
 
-### 1.**Introduction**
+1.**Introduction**
 
 With the development of science and technology, the use of human induction lamp that usually used in the dark corridor area is very common in our real life, such as the corridor of the community, the bedroom of the room, the garage of the dungeon, the bathroom and so on. The human induction lamp are generally composed of a PIR Motion Sensor, a lamp, a photoresistor sensor and so on. 
 
@@ -8,7 +8,7 @@ In this project, we will learn how to use a PIR Motion Sensor, LEDs, and a photo
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423144742926](media/image-20230423144742926.png) | ![image-20230423144746886](media/image-20230423144746886.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -26,7 +26,7 @@ In this project, we will learn how to use a PIR Motion Sensor, LEDs, and a photo
 
 
 
-### 3.**Circuit Diagram and Wiring Diagram**
+3.**Circuit Diagram and Wiring Diagram**
 
 ![](/media/79c069794eed2b3eb611f4aee7952862.png)
 
@@ -88,7 +88,7 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/e12cb6eb32646c284d1420c4ada3f932.png)
 
-### 4.**Test Result：**
+4.**Test Result：**
 
 Upload the code and power up with a USB cable. 
 

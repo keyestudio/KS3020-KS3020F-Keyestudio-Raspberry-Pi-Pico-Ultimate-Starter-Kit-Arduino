@@ -1,6 +1,6 @@
 # Project 29：Temperature Humidity Meter 
 
-### 1.**Introduction**
+1.**Introduction**
 
 In winter, the humidity in the air is very low, that is, the air is very dry. Coupled with the cold, the human skin is prone to crack from excessive dryness. Therefore, you need to use a humidifier to increase the humidity of the air at home. 
 
@@ -10,7 +10,7 @@ In this lesson, we will learn how to use the XHT11 temperature and humidity sens
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423153159379](media/image-20230423153159379.png) | ![image-20230423153203654](media/image-20230423153203654.png) | ![image-20230423153208502](media/image-20230423153208502.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -20,7 +20,7 @@ In this lesson, we will learn how to use the XHT11 temperature and humidity sens
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 ![image-20230423153243080](media/image-20230423153243080.png)
 
@@ -70,7 +70,7 @@ Digital interface
 
 ![image-20230423153449938](media/image-20230423153449938.png)
 
-### 4.**Read the Value**
+4.**Read the Value**
 
 First we learned how to use the serial monitor to print the values of the XHT11 sensor. Please connect the wires according to the wiring diagram below.
 
@@ -80,7 +80,7 @@ First we learned how to use the serial monitor to print the values of the XHT11 
 
 
 
-### 5.**Adding the DHT library：**
+5.**Adding the DHT library：**
 
 Open Arduino IDE and click“Sketch”→“Include Library”→“Add .zip Library...”.
 
@@ -149,7 +149,7 @@ You will see the current temperature and humidity value detected by the sensor.
 
 
 
-### 6.**Circuit Diagram and Wiring Diagram**
+6.**Circuit Diagram and Wiring Diagram**
 
 Now we start printing the value of the XHT11 temperature and humidity sensor with LCD screen. We will see the corresponding values on the LCD screen. Let's get started with this project. Please follow the wiring diagram below.
 
@@ -161,7 +161,7 @@ Note: You would better use the 10CM short male-to-female DuPont wire to connect 
 
 
 
-### 7.**Test Code：**
+7.**Test Code：**
 
 If the library DHT and lcd128\_32\_io are added, just skip this step.
 
@@ -228,6 +228,6 @@ Click ![image-20230423153854147](media/image-20230423153854147.png) to upload th
 
 ![image-20230423153909277](media/image-20230423153909277.png)
 
-### 8.**Test Result：**
+8.**Test Result：**
 
 Upload the code to the pico board and power up. The LCD\_128X32\_DOT displays temperature and humidity in the current environment.

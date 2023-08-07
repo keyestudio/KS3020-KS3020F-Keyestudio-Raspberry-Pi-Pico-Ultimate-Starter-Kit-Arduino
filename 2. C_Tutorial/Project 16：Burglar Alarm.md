@@ -1,12 +1,12 @@
 # Project 16：Burglar Alarm
 
-### 1.**Introduction**
+1.**Introduction**
 
 PIR motion sensor measures the thermal infrared (IR) light emitted by moving objects. The sensor can detect the movement of people, animals, and cars to trigger safety alarms and lighting. 
 
 They are used to detect movement and ideal for security such as burglar alarms and security lighting systems. In this project, we will use a PIR motion sensor and buzzer to detect sounds when people or animals approach.
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423133559967](media/image-20230423133559967.png) | ![image-20230423133604391](media/image-20230423133604391.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -22,7 +22,7 @@ They are used to detect movement and ideal for security such as burglar alarms a
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 <img src="/media/9eb70172b21091e0a523d65bd209b641.png" style="zoom:50%;" />
 
@@ -34,7 +34,7 @@ And the human body will release infrared light, although relatively weak, but st
 
 Since vulnerable to radio frequency radiation and temperature changes, the PIR motion sensor should be kept away from heat sources like radiators, heaters and air conditioners, as well as direct irradiation of sunlight, headlights and incandescent light.
 
-### 4.**Features:**
+4.**Features:**
 
 - Maximum input voltage: DC 3.3 \~ 5V
 
@@ -58,17 +58,17 @@ Since vulnerable to radio frequency radiation and temperature changes, the PIR m
 
 
 
-### 5.**Schematic diagram:**
+5.**Schematic diagram:**
 
 ![](/media/9e1ec604aa6f9d4a3c1fe41d4bccd699.png)
 
-### 6.**Circuit Diagram and Wiring Diagram**
+6.**Circuit Diagram and Wiring Diagram**
 
 ![](/media/8af6a40d69c138216548320abc46ed35.png)
 
 ![](/media/d028bb819eed7cf3a08af69a47ecfce6.png)
 
-### 7.**Test Code：**
+7.**Test Code：**
 
 You can open the code we provide:
 
@@ -123,6 +123,6 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/7c6522fbc3829e0dcea07284a22fb1d2.png)
 
-### 8.**Test Result：**
+8.**Test Result：**
 
 Upload the code and power up. The active buzzer will alarm and LED will flash, if people are detected

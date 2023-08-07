@@ -1,6 +1,6 @@
 # Project 30：Ultrasonic Ranger
 
-### **1. Introduction**
+**1. Introduction**
 
 The HC-SR04 ultrasonic sensor is a very affordable distance sensor, mainly used for obstacle avoidance in various robotic projects. It is also used for water level sensing and even as a parking sensor. We treat the ultrasonic sensors as bat's eyes. 
 
@@ -8,7 +8,7 @@ In the dark, bats can still identify objects in front of them and directions thr
 
 
 
-### **2. Components Required**
+**2. Components Required**
 
 | ![image-20230423154102387](media/image-20230423154102387.png) | ![image-20230423154108877](media/image-20230423154108877.png) | ![image-20230423154113631](media/image-20230423154113631.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -20,7 +20,7 @@ In the dark, bats can still identify objects in front of them and directions thr
 
 
 
-### **3. Component Knowledge**
+**3. Component Knowledge**
 
 **HC-SR04 ultrasonic sensor:** 
 
@@ -46,7 +46,7 @@ Distance in centimeters = time / 58
 
 Distance in inches = time / 148
 
-### **4. Read the Distance Value**
+**4. Read the Distance Value**
 
 We will start with a simple ultrasonic distance measurement and output the measured distance on the serial monitor.
 
@@ -122,7 +122,7 @@ The monitor will show distance vales between the sensor and the obstacle.
 
 
 
-### **5. Circuit Diagram and Wiring Diagram**
+**5. Circuit Diagram and Wiring Diagram**
 
 Next, we will make a simple ultrasonic ranger using a Raspberry Pi Pico to control an ultrasonic sensor and 4 LED lights. Connect the wires as shown below.
 ![image-20230423154642163](media/image-20230423154642163.png)	
@@ -221,7 +221,7 @@ Pi Pico board
 
 ![image-20230423154824147](media/image-20230423154824147.png)
 
-### **6. Test Result：**
+**6. Test Result：**
 
 Upload the code to the pico board, power up with a USB cable and open the serial monitor and set baud rate to 115200. 
 

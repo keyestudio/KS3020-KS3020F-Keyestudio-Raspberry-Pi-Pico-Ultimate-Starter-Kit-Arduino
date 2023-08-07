@@ -1,12 +1,12 @@
 # Project 27：Temperature Measurement
 
-### 1.**Introduction**
+1.**Introduction**
 
 LM35 is a commonly used and easy-to-use temperature sensor. It does not require other hardware, only needs an analog port. The difficulty lies in compiling the code and converting the analog values to Celsius temperature. 
 
 In this project, we use a temperature sensor and 3 LEDs to make a temperature tester. When the temperature sensor touches objects with different temperature, the LED will show different colors.
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423145834527](media/image-20230423145834527.png) | ![image-20230423145838620](media/image-20230423145838620.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -24,7 +24,7 @@ In this project, we use a temperature sensor and 3 LEDs to make a temperature te
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 <img src="/media/0fded1cfe95575d0fa4aa03839d8e30d.png" style="zoom:50%;" />
 
@@ -38,7 +38,7 @@ The output temperature is 0℃ to 100℃, the conversion formula is as follows.
 
 
 
-### 4.**Read the Temperature Value**
+4.**Read the Temperature Value**
 
 We first use a simple code to read the value of the temperature sensor, print it in the serial monitor. The wiring diagram is shown below.
 
@@ -99,7 +99,7 @@ Upload the code to the pico board, power up with a USB cable and open the serial
 
 ![](/media/37016b9894cd4741906cd0ddd5bd1160.png)
 
-### 5.**Circuit Diagram and Wiring Diagram**
+5.**Circuit Diagram and Wiring Diagram**
 
 Now we use a LM35 temperature sensor and three LED lights to do a temperature test. When the LM35 temperature sensor senses different temperatures, different LED lights will light up. Follow the diagram below for wiring.
 
@@ -107,7 +107,7 @@ Now we use a LM35 temperature sensor and three LED lights to do a temperature te
 
 ![](/media/fa3eddc7bda77c7c8420d0f3a0b0d2eb.png)
 
-### 6.**Test Code：**
+6.**Test Code：**
 
 Note: The value of“temperature F”in the code can be adjusted appropriately according to the local temperature value.
 
@@ -177,7 +177,7 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/cffb047b2612f7a627876b5d8e3a411c.png)
 
-### 7.**Test Result**
+7.**Test Result**
 
 The monitor displays the current temperature value. When the LM35 temperature sensor senses different temperatures, different LED lights will light up.
 

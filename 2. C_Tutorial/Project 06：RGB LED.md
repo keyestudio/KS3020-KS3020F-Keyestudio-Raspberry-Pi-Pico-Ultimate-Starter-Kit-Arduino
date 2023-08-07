@@ -1,6 +1,6 @@
 # Project 06: RGB LED
 
-### **1. Introduction**
+**1. Introduction**
 
 ![](/media/94bdff69e438989d8e0934e57f2e5c00.png)
 
@@ -8,7 +8,7 @@ In this project, we will introduce the RGB LED and show you how to use the Plus 
 
 
 
-### **2. Components Required**
+**2. Components Required**
 
 | ![image-20230423111712068](media/image-20230423111712068.png) | ![image-20230423111717373](media/image-20230423111717373.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -22,7 +22,7 @@ In this project, we will introduce the RGB LED and show you how to use the Plus 
 
 
 
-### **3. Component Knowledge**
+**3. Component Knowledge**
 
 **RGB LED：**
 
@@ -36,7 +36,7 @@ This RGB LED has pin R, G and B and a common cathode. To change its brightness, 
 
 
 
-### **4. Circuit Diagram and Wiring Diagram**
+**4. Circuit Diagram and Wiring Diagram**
 
 ![](/media/f6950bc8498e6139cbb67db84cdd5a9a.png)
 
@@ -52,7 +52,7 @@ How to identify the 220Ω 5-band resistor
 
 <img src="/media/55c0199544e9819328f6d5778f10d7d0.png" style="zoom:80%;" />
 
-### **5. Test Code：**
+**5. Test Code：**
 
 We need to create three PWM channels and use random duty cycles to light up the RGB LEDs randomly.
 
@@ -104,6 +104,6 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/5a19f7d07f6093f14a1acfbc4e3604ef.png)
 
-### **6. Result**
+**6. Result**
 
 Upload the project code, wire up, power up and wait a few seconds, the RGB will show random colors.

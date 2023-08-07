@@ -1,12 +1,12 @@
 # Project 07: Flowing Light
 
-### **1. Introduction**
+**1. Introduction**
 
 In our daily life, we can see many billboards made up of different colors of LED. They constantly change the light to attract the attention of customers. In this project, we will use Plus control board with 5 LEDs to achieve the effect of flowing water.
 
 
 
-### **2. Components**
+**2. Components**
 
 | ![image-20230423112608666](media/image-20230423112608666.png) | ![image-20230423112613315](media/image-20230423112613315.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -20,7 +20,7 @@ In our daily life, we can see many billboards made up of different colors of LED
 
 
 
-### **3. Circuit Diagram and Wiring Diagram**
+**3. Circuit Diagram and Wiring Diagram**
 
 ![](/media/e6f92039d131685369db2d1ac2c30267.png)
 
@@ -36,7 +36,7 @@ How to identify the 220Ω 5-band resistor
 
 <img src="/media/55c0199544e9819328f6d5778f10d7d0.png" style="zoom:67%;" />
 
-### **4. Test Code**
+**4. Test Code**
 
 You can open the code we provide:
 
@@ -87,7 +87,7 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/66f2ab42322fb7b16c0e5821352e94ca.png)
 
-### **5. Test Result：**
+**5. Test Result：**
 
 After burning the project code, connecting the wires and powering on, the 10 LEDs will gradually light up and then gradually go off.
 

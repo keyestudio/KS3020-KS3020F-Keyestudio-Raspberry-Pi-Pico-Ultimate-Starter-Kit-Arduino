@@ -1,6 +1,6 @@
 # Project 26：Sound Control Stepper Motor
 
-### 1.**Introduction**
+1.**Introduction**
 
 The sound sensor has a built-in capacitive electret microphone and power amplifier. It can be used to detect the sound intensity of the environment.
 
@@ -8,7 +8,7 @@ In this project, we use a sound sensor and a 130 motor to make a voice-activated
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423145243835](media/image-20230423145243835.png) | ![image-20230423145248217](media/image-20230423145248217.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -22,7 +22,7 @@ In this project, we use a sound sensor and a 130 motor to make a voice-activated
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 <img src="/media/8c5550065b07fbc3961172f93a6b40a0.png" style="zoom:67%;" />
 
@@ -30,7 +30,7 @@ In this project, we use a sound sensor and a 130 motor to make a voice-activated
 
 
 
-### 4.**Read the Analog Value of the Sound Sensor**
+4.**Read the Analog Value of the Sound Sensor**
 
 We first use a simple code to read the analog value of the sound sensor and print it to the serial monitor, please refer to the following wiring diagram for the wiring.
 
@@ -85,13 +85,13 @@ The monitor will show analog values of the sound sensor.
 
 ![](/media/ae5f584b3e91adba3f7fc69b86ec68db.png)
 
-### 5.**Wiring Diagram：**
+5.**Wiring Diagram：**
 
 ![](/media/631b461716fe53a2c1138f561acae5f7.png)
 
 <img src="/media/340c224f0f71765f71d17afc623d595d.png" style="zoom:50%;" />
 
-### 6.**Test Code：**
+6.**Test Code：**
 
 Note：![](/media/eadca6bc4da3706e43015b3e00afd512.png)you can set the thresh value in the code)
 
@@ -149,7 +149,7 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/8c3e2b9948b1b8bc450adbbde684e4a0.png)
 
-### 7.**Test Result**
+7.**Test Result**
 
 Upload the code and power up. 
 

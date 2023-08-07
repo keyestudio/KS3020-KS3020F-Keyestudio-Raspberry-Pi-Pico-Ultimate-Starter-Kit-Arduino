@@ -1,6 +1,6 @@
 # Project 12 Active Buzzer
 
-### **1. Introduction**
+**1. Introduction**
 
 Active buzzer is a sound making element, widely used on computers, printers, alarms, electronic toys, telephones, timers, etc. It has an inner vibration source. 
 
@@ -8,7 +8,7 @@ In this project, we will use a PLUS control board to control the active buzzer t
 
 
 
-### **2. Components Required**
+**2. Components Required**
 
 | ![image-20230423120859266](media/image-20230423120859266.png) | ![image-20230423120903249](media/image-20230423120903249.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -20,7 +20,7 @@ In this project, we will use a PLUS control board to control the active buzzer t
 
 
 
-### **3. Component Knowledge**
+**3. Component Knowledge**
 
 ![](/media/11ec5ddc982db9928341e858aab94652.png)
 
@@ -32,7 +32,7 @@ The appearance of the two buzzers is very similar, but passive buzzers come with
 
 ![](/media/0f9825969867ac2d65bb1a19ed0ad2ab.png)
 
-### **4. Circuit Diagram and Wiring Diagram**
+**4. Circuit Diagram and Wiring Diagram**
 
    ![image-20230423121131474](media/image-20230423121131474.png)
 
@@ -44,7 +44,7 @@ The appearance of the two buzzers is very similar, but passive buzzers come with
 2.  VUSB should be connected to the positive side of the USB cable, if it is connected to GND, it may burn out the computer or Raspberry Pi Pico. Also, be careful when wiring the Raspberry Pi Pico pins 36-40 to avoid short circuits. 
 3.  The positive pole (“+”/long pin) of the active buzzer is connected to pin 16, and the negative pole (short pin) is connected to GND.
 
-### **5. Test Code：**
+**5. Test Code：**
 
 You can open the code we provide:
 
@@ -85,6 +85,6 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/15450f19c2d0649b0f9def0cf8649c30.png)
 
-### **6. Result**
+**6. Result**
 
 Upload the project code, wire up and power up, then the active buzzer buzzes.

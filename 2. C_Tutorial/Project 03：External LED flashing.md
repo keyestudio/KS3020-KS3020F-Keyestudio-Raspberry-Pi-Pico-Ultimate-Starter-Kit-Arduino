@@ -1,12 +1,12 @@
 # Project 03：External LED Flashing 
 
-### **1. Description：**
+**1. Description：**
 
 There is an onboard LED in Raspberry Pi Pico, which is a GP25 pin attached to the Raspberry Pi Pico. In this project, we will learn the effect of making the onboard LED blink.
 
 
 
-### **2. Components**
+**2. Components**
 
 | ![image-20230423105522457](media/image-20230423105522457.png) | ![image-20230423105526335](media/image-20230423105526335.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -20,9 +20,9 @@ There is an onboard LED in Raspberry Pi Pico, which is a GP25 pin attached to th
 
 
 
-### **3. Component Knowledge**
+**3. Component Knowledge**
 
-#### **LED:**
+**LED:**
 
 ![image-20230423105645688](media/image-20230423105645688.png)
 
@@ -30,7 +30,7 @@ It is a kind of semiconductor called "light-emitting diode", which is an electro
 
 ![](/media/f70404aa49540fd7aecae944c7c01f83.jpeg)
 
-#### **Resistor**
+**Resistor**
 
 A resistor is an electronic component in a circuit that restricts or regulates the flow current flow. Its unit is(Ω). 1 mΩ= 1000 kΩ，1kΩ= 1000Ω.
 
@@ -70,7 +70,7 @@ In the figure below, if the voltage is 3V, the current through R1 is: I = U / R 
 
 ![](/media/b3eec552e4dfad361833730698621776.png)
 
-#### **Breadboard**
+**Breadboard**
 
 A breadboard is used to build and test circuits quickly before finalizing any circuit design. The breadboard has many holes into which circuit components like integrated circuits and resistors can be inserted. A typical breadboard is as follows.
 
@@ -90,9 +90,9 @@ When we connect DIP (Dual In-line Packages) components, such as integrated circu
 
 ![](/media/9b66ae2199e77fbc99b7b278dac0b567.png)
 
-### **4. Circuit Diagram and Wiring Diagram**
+**4. Circuit Diagram and Wiring Diagram**
 
-#### **How to use the keyestudio raspberry pico expansion board**
+**How to use the keyestudio raspberry pico expansion board**
 
 Stack the pico board onto the expansion board, as shown below;
 
@@ -112,11 +112,11 @@ Warning: A short circuit may cause a large current in the circuit, causing compo
 
 ![](/media/cb069d7553d861e3293d8bdbe85bbd05.png)
 
-#### **Circuit Diagram**
+**Circuit Diagram**
 
 ![](/media/898285da10fa9b39e52a02bc68758d27.png)
 
-#### **Wiring Diagram**
+**Wiring Diagram**
 
 Note:
 
@@ -128,7 +128,7 @@ How to identify the 220Ω five-band resistor
 
 <img src="/media/55c0199544e9819328f6d5778f10d7d0.png" style="zoom:50%;" />
 
-### **5. Test Code：**
+**5. Test Code：**
 
 According to the circuit diagram, when Pico's GP16 outputs a high level, the LED will light up; when it outputs a low level, the LED light will be off. Therefore, we can make the LED flash repeatedly by controlling the GP16 to output high and low levels.
 
@@ -174,7 +174,7 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/253f1992ddf73ca401dde1797fcfcfca.png)
 
-### **6. Test Result**
+**6. Test Result**
 
 After the project code was uploaded successfully, the LED started flashing
 

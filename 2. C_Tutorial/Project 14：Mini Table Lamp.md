@@ -1,10 +1,10 @@
 # Project 14: Mini Table Lamp
 
-### **1. Introduction**
+**1. Introduction**
 
 Did you know that Arduino can light up an LED when you press a button? In this project, we will use the Plus Mainboard, a key switch and an LED to make a small desk lamp.
 
-### **2. Components Required**
+**2. Components Required**
 
 | ![image-20230423132238774](media/image-20230423132238774.png) | ![image-20230423132244047](media/image-20230423132244047.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -20,7 +20,7 @@ Did you know that Arduino can light up an LED when you press a button? In this p
 
 
 
-### **3. Component Knowledge**
+**3. Component Knowledge**
 
 ![](/media/5b8fea4657b47510d199f740fdcaaa9d.png)
 
@@ -38,12 +38,12 @@ The key switch is one of the most commonly used components in circuit design.
 
 
 
-### **4. Schematic Diagram of the Button**
+**4. Schematic Diagram of the Button**
 
 ![image-20230423132502401](media/image-20230423132502401.png)
 
 
-### **5. Circuit Diagram and Wiring Diagram**
+**5. Circuit Diagram and Wiring Diagram**
 
 ![](/media/0753a2a452e0292b31f79f9b6dabb0cc.png)
 
@@ -61,7 +61,7 @@ How to identify the 220Ω 5-band resistor and 10KΩ 5-band resistor
 
 <img src="/media/246cf3885dc837c458a28123885c9f7b.png" style="zoom:50%;" />
 
-### **6. Test Code：**
+**6. Test Code：**
 
 You can open the code we provide:
 
@@ -115,6 +115,6 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/47dd7f6786120f6f15d429407daa74f3.png)
 
-### **7. Result**
+**7. Result**
 
 Burn the project code, connect the wires and power on first. Then press the button, the LED will turn on. Press the button again, the LED will turn off.

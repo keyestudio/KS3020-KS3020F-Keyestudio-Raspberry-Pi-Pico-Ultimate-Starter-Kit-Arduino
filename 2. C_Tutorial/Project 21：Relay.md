@@ -1,6 +1,6 @@
 # Project 21: Relay
 
-### 1.**Introduction**
+1.**Introduction**
 
 In daily life, we generally use AC to drive electrical equipment, and sometimes we use switches to control electrical appliances. 
 
@@ -10,7 +10,7 @@ In this lesson we will learn a special and easy-to-use switch, which is the rela
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![image-20230423140453824](media/image-20230423140453824.png) | ![image-20230423140458171](media/image-20230423140458171.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -22,7 +22,7 @@ In this lesson we will learn a special and easy-to-use switch, which is the rela
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 **Relay:** 
 
@@ -39,13 +39,13 @@ The rated load means that a 5V Arduino can be used to control a device with a 24
 
 
 
-### 4.**Schematic Diagram and Wiring Diagram**
+4.**Schematic Diagram and Wiring Diagram**
 
 ![](/media/bfe4e5e68d12e715c50f8aa5797a689c.png)
 
 <img src="/media/0e76ea13b2034301be2ecdfde7f21f1e.png" style="zoom:50%;" />
 
-### 5.**Test Code：**
+5.**Test Code：**
 
 You can open the code we provide:
 
@@ -86,6 +86,6 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/60d4972ad22ae3bd3a745e8c2db50d83.png)
 
-### 6.**Result**
+6.**Result**
 
 Upload the code to successfully, wire up and power on, the relay will be turned on (ON end is connected) for 1 second, and stop (NC end is connected) for 1 seconds, circularly.

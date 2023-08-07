@@ -1,12 +1,12 @@
 # Project 01: Hello World
 
-### **1.Introduction**
+**1.Introduction**
 
 For Raspberry Pi Pico beginners, we will start with some simple things. In this project, you only need a Raspberry Pi Pico and a USB cable to complete the "Hello World!" project, which is a test of communication between Raspberry Pi Pico and the PC as well as a primary project.
 
 
 
-### **2.Components**
+**2.Components**
 
 | ![image-20230423104134494](media/image-20230423104134494.png) | ![image-20230423104142968](media/image-20230423104142968.png) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -14,14 +14,14 @@ For Raspberry Pi Pico beginners, we will start with some simple things. In this 
 
 
 
-### **3.Wiring Up**
+**3.Wiring Up**
 
 In this project, we use a USB cable to connect the Raspberry Pi Pico to the computer.
 ![image-20230423104205479](media/image-20230423104205479.png)
 
 
 
-### **4.Test Code**
+**4.Test Code**
 
 You can open the code we provide:
 
@@ -66,7 +66,7 @@ The code is uploaded successfully!
 
 ![](/media/3fab055b4d5672d06db938ddbfbf4dd6.png)
 
-### **5.Test Result**
+**5.Test Result**
 
 After uploading successfully, click the icon![](/media/2f6bca56f724e45a855335cb53ae9b4e.png) to enter the serial display.
 

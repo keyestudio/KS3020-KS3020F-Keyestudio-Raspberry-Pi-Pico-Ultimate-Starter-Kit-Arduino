@@ -1,12 +1,12 @@
 # Project 11：74HC595N Control 8 LEDs 
 
-### **1. Introduction**
+**1. Introduction**
 
 For a PLUS mainboard, it has only 22 I/O ports, how do we light up a large number of LEDs? In this project, we will use 74HC595N to control 7 LEDs to save port resources.
 
 
 
-### **2. Components Required**
+**2. Components Required**
 
 | ![image-20230423115823089](media/image-20230423115823089.png) | ![image-20230423115827193](media/image-20230423115827193.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -20,7 +20,7 @@ For a PLUS mainboard, it has only 22 I/O ports, how do we light up a large numbe
 
 
 
-#### **74HC595N Chip:** 
+**74HC595N Chip:** 
 
 To put it simply, 74HC595N chip is a combination of 8-digit shifting register, memorizer and equipped with tri-state output.The shift register and the memorizer are synchronized to different clocks, and the data is input on the rising edge of the shift register clock SCK and goes into the memory register on the rising edge of the memory register clock RCK. 
 
@@ -30,7 +30,7 @@ The 8-bit shift register can be reset asynchronously (low-level reset), and the 
 
 ![](/media/858b189f06ad68afe051b15043b2affd.png)
 
-#### **Pins**：
+**Pins**：
 
 |             PIN             | FUNCTION                                                     |
 | :-------------------------: | ------------------------------------------------------------ |
@@ -46,7 +46,7 @@ VCC and GND are used used for chip power supply, and the operating voltage is 5V
 
 
 
-### **3. Circuit Diagram and Wiring Diagram**
+**3. Circuit Diagram and Wiring Diagram**
 
 ![](/media/1738cecf584c83b55370153ebc1688b7.png)
 
@@ -56,7 +56,7 @@ Note: Pay attention to the direction in which the 74HC595N chip is inserted.
 
 ![](/media/91833532723f4ee623902c0252092741.png)
 
-### **4. Test Code：**
+**4. Test Code：**
 
 You can open the code we provide:
 
@@ -121,6 +121,6 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/0c2518af4266e7ec9212a7484414839c.png)
 
-### **5. Result**
+**5. Result**
 
 Upload project code, wire up and power on, then you can see 8 LED flash like a flowing light.
